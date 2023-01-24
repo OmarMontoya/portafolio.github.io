@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #888;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a img{
+  height: 20px;
+  width: 35px;
+}
+
+.ideaImg{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  width: 15rem;
+}
+
+.destrezas .card-img-top{
+  height: 150px;
+  width: 150px;
+}
+
+.destrezas .card{
+  transition: transform .8s, border .8s, box-shadow .8s;
+}
+
+.destrezas .card:hover{
+  transform: scale(1.05);
+  border: #444 solid 1px;
+  box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+-webkit-box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+-moz-box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+}
+
+.portafolio .card{
+  transition: border .7s, background-color .7s, color .7s, box-shadow .7s;
+}
+.portafolio .card:hover{
+  border: 1px #888 solid;
+  background-color: #444;
+  color: #fff;
+  box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+-webkit-box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+-moz-box-shadow: 3px 9px 34px -3px rgba(0,0,0,0.58);
+}
+
+.contacto {
+  background-color: #ddd;
+  height: 20vh;
+}
+
